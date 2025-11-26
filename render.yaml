@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: hollow-foundry
+    runtime: static
+    repo: https://github.com/CodyKeith9/hollow-foundry
+    buildCommand: npm run build
+    staticPublishPath: dist
+    pullRequestPreviewsEnabled: true
+    autoDeploy: true
+    buildFilter:
+      paths:
+        - src/**
+        - public/**
+        - package.json
+        - package-lock.json
+        - vite.config.js
+        - index.html
