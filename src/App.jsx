@@ -1,4 +1,4 @@
-import Layout from "./components/layout.jsx";
+import Layout from "./components/Layout.jsx";
 import Hero from "./components/Hero.jsx";
 import LocalHostingStrip from "./components/LocalHostingStrip.jsx";
 import ServicesSection from "./components/ServicesSection.jsx";
